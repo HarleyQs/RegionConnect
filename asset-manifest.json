@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/RegionConnect/static/css/main.692414e0.css",
-    "main.js": "/RegionConnect/static/js/main.74810560.js",
+    "main.js": "/RegionConnect/static/js/main.42888825.js",
     "static/js/787.cda612ba.chunk.js": "/RegionConnect/static/js/787.cda612ba.chunk.js",
     "static/media/RegionConnectLogo.png": "/RegionConnect/static/media/RegionConnectLogo.c04364cfb1d710560149.png",
     "index.html": "/RegionConnect/index.html",
     "main.692414e0.css.map": "/RegionConnect/static/css/main.692414e0.css.map",
-    "main.74810560.js.map": "/RegionConnect/static/js/main.74810560.js.map",
+    "main.42888825.js.map": "/RegionConnect/static/js/main.42888825.js.map",
     "787.cda612ba.chunk.js.map": "/RegionConnect/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.692414e0.css",
-    "static/js/main.74810560.js"
+    "static/js/main.42888825.js"
   ]
 }
