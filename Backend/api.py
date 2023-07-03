@@ -31,7 +31,7 @@ class ProvinsiRouter:
     sessions: Session = Depends(get_db)
 
     @router.get("/provinsi", response_model=PaginatedProvinsiInfo)
-    async def list_provinsi(self, limit: int = 10, offset: int = 0):
+    async def list_provinsi(self, limit: int = 100, offset: int = 0):
 
         provinsi_list = await get_all_provinsi(self.sessions, limit, offset)
         response = {"limit": limit, "offset": offset, "data": provinsi_list}
@@ -55,7 +55,7 @@ class ProvinsiRouter:
         return response
 
     @router.get("/kabupaten", response_model=PaginatedKabupatenInfo)
-    async def list_kabupaten(self, limit: int = 10, offset: int = 0):
+    async def list_kabupaten(self, limit: int = 100, offset: int = 0):
         kabupaten_list = get_all_kabupaten(self.sessions, limit, offset)
         response = {"limit":limit, "offset": offset, "data": kabupaten_list}
         
@@ -76,7 +76,7 @@ class ProvinsiRouter:
         return response
     
     @router.get("/kecamatan", response_model=PaginatedKecamatanInfo)
-    async def list_kecamatan(self, limit: int=10, offset: int= 0):
+    async def list_kecamatan(self, limit: int=100, offset: int= 0):
         kecamatan_list = get_all_kecamatan(self.sessions, limit, offset)
         response = {"limit": limit, "offset": offset, "data": kecamatan_list}
         
