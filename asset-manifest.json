@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WilayahWebApp/static/css/main.692414e0.css",
+    "main.js": "/WilayahWebApp/static/js/main.1d4e0761.js",
+    "static/js/787.cda612ba.chunk.js": "/WilayahWebApp/static/js/787.cda612ba.chunk.js",
+    "static/media/RegionConnectLogo.png": "/WilayahWebApp/static/media/RegionConnectLogo.c04364cfb1d710560149.png",
+    "index.html": "/WilayahWebApp/index.html",
+    "main.692414e0.css.map": "/WilayahWebApp/static/css/main.692414e0.css.map",
+    "main.1d4e0761.js.map": "/WilayahWebApp/static/js/main.1d4e0761.js.map",
+    "787.cda612ba.chunk.js.map": "/WilayahWebApp/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.692414e0.css",
+    "static/js/main.1d4e0761.js"
+  ]
+}
