@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import api
 # App Object
 app = FastAPI()
-origins = ['*', 'https://cc84-180-252-125-38.ngrok-free.app']
+origins = ['*', 'https://harleyqs.github.io/RegionConnect/']
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,

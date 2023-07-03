@@ -10,7 +10,7 @@ import KecamatanView from './components/Kecamatan/KecamatanListView';
 
 
 
-const apiUrl = `https://c949-180-252-125-38.ngrok-free.app`
+const apiUrl = `https://bbd1-180-252-125-38.ngrok-free.app`
 function App() {
   // axios.get(apiUrl,  {headers: {'ngrok-skip-browser-warning': 'true'}}).then((res) => console.log(res))
   const isMobile = useMediaQuery({ maxWidth: 950});
