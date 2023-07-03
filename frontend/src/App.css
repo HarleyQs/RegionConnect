@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(94, 41, 3);
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color:rgba(239, 156, 12, 0.575);
+  border-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:50px;
+  vertical-align: middle;
+}
+
+tbody{
+  background-color: rgba(219, 97, 15, 0.999);
+  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
